@@ -1,4 +1,4 @@
-body {
+body{
     width: 100vw;
 }
 
@@ -6,4 +6,11 @@ body {
     background-color: rgb(222 101 254);
     width: 117px;
     height: 340px;
+}
+
+.anas
+{
+ background-color: #213540;
+ width: 250px;
+ height: 90px; 
 }
