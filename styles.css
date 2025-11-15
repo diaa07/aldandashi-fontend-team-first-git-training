@@ -1,4 +1,4 @@
-body{
+body {
     width: 100vw;
 }
 
@@ -8,9 +8,27 @@ body{
     height: 340px;
 }
 
-.anas
-{
- background-color: #213540;
- width: 250px;
- height: 90px; 
+.anas {
+    background-color: #213540;
+    width: 250px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anas .btnAnas {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+transition: 0.3s;
+}
+.anas .btnAnas:hover{
+    transform: translateY(-5px);
+    box-shadow:0 5px 15px rgba(166, 1, 248, 0.414) ;
 }
