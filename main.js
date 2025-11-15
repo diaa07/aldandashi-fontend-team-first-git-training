@@ -1,4 +1,4 @@
 let btnAnas = document.querySelector(".btnAnas");
-btnAnas.onclick = ()=>{
+btnAnas.onclick = () => {
     window.alert("Anas loves Real Madrid");
 }
