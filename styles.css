@@ -3,10 +3,38 @@ body {
 }
 
 .amr {
+    display: flex; 
+  justify-content: center;
+  align-items: center;
+
     background-color: rgb(222 101 254);
     width: 117px;
     height: 340px;
-}
+    }
+    
+.amr-button
+    {
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 50px;
+        border: 2px solid ;
+        border-bottom: black;
+        border-color: black;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1.2em;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.4s ease-in-out;
+    }
+    
+.amr-button:hover
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
 
 .anas {
     background-color: #213540;
